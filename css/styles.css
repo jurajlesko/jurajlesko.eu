@@ -11,7 +11,6 @@ nav img {
 	width: 130px;
 	box-shadow: 0px 0px 3px grey;
 	transition: box-shadow 0.3s linear; 
-	margin-left: 4px;
 }
 
 nav img:hover {
