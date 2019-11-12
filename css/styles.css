@@ -56,6 +56,47 @@ nav img:hover {
 	cursor: pointer;
 }
 
+.slideanim {
+    animation: slide 1s;
+    -webkit-animation: slide 1.5s; 
+}
+
+/* animacia uvodneho textu */
+
+
+@media screen and (min-width: 768px) {
+
+	.slideanim {
+    		animation: slide 1s;
+    		-webkit-animation: slide 1.5s; 
+	}
+
+	@keyframes slide {
+    		0% {
+       			opacity: 0;
+        		transform: translateX(50%);
+    		} 
+    		100% {
+        		opacity: 1;
+        		transform: translateX(0%);
+    		} 
+	}
+
+	@-webkit-keyframes slide {
+    		0% {
+        		opacity: 0;
+        		-webkit-transform: translateX(50%);
+    		}	 
+    		100% {
+        		opacity: 1;
+        		-webkit-transform: translateX(0%);
+    		}
+	}
+
+}
+
+
+
 .box {
 	padding-top: 80px;
 	padding-bottom: 80px;	
