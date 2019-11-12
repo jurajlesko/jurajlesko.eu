@@ -19,7 +19,7 @@ $(document).ready(function(){
 	
 
 	$("#par").click(function() {
-		//event.stopPropagation();	
+	
 		$(".line1").toggleClass("change1");
 		$(".line2").toggleClass("change2");
 		$(".line3").toggleClass("change3");
