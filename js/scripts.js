@@ -10,6 +10,22 @@ $(document).ready(function(){
 		
 	});
 	
+	// Show/Hide menu on top of the page
+					
+	$("#par").click(function(event) {	
+		$("#res").slideToggle(300);
+						
+	});
+	
+
+	$("#par").click(function() {
+		//event.stopPropagation();	
+		$(".line1").toggleClass("change1");
+		$(".line2").toggleClass("change2");
+		$(".line3").toggleClass("change3");
+	
+	});
+	
 	//---------------------
 	
 
